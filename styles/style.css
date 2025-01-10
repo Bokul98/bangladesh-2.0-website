@@ -1,0 +1,53 @@
+/* For Font  */
+.fira-sans-thin {
+  font-family: "Fira Sans", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* For Global Style */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Fira Sans", serif;
+}
+.btn-primary {
+  background-color: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 8px;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 50px;
+}
+.btn-primary:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 106, 80);
+  border: 2px solid rgb(0, 106, 80);
+}
+
+.font-h1 {
+  color: rgb(14, 14, 14);
+  font-family: "Fira Sans", serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.font-p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* Main Css Start Here */
+
