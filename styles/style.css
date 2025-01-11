@@ -50,8 +50,6 @@ body {
   font-weight: 400;
   line-height: 24px;
 }
-.width {
-}
 
 /* Main Css Start Here NavBar */
 
@@ -270,6 +268,28 @@ body {
   border: 2px solid black;
   color: rgb(255, 194, 57);
   transition: all 0.3s ease;
+}
+
+/* Quote Section Challenge */
+
+.quote{
+  background-color:rgb(250, 250, 250);
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 48px 24px 48px 24px;
+  margin-bottom: 80px;
+}
+.bg-qoute{
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding-top: 22px;
+}
+.quote-description {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 20px;
+  font-weight: 600;
 }
 
 /* Recent News */
@@ -497,7 +517,7 @@ body {
   height: 2px;
   border: none;
 }
-.footer-img-icon{
+.footer-img-icon {
   display: flex;
   justify-content: center;
   gap: 23px;
