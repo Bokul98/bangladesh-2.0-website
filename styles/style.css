@@ -28,7 +28,6 @@ body {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin: 50px;
 }
 .btn-primary:hover {
   background-color: rgb(255, 255, 255);
@@ -41,7 +40,6 @@ body {
   font-family: "Fira Sans", serif;
   font-size: 40px;
   font-weight: 700;
-  line-height: 48px;
 }
 
 .font-p {
@@ -91,6 +89,7 @@ body {
 .banner-container {
   border-radius: 24px;
   background: rgb(198, 228, 214);
+  margin-bottom: 80px;
 }
 .banner-container {
   display: flex;
@@ -99,28 +98,229 @@ body {
   padding: 80px 60px;
   gap: 64px;
 }
-.banner-content h4{
-    color: rgba(14, 14, 14, 0.5);
-    font-family: Fira Sans;
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 16px;
+.banner-content h4 {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
 }
-.banner-content h1{
-    color: rgb(14, 14, 14);
-    font-family: "Fira Sans";
-    font-size: 54px;
-    font-weight: 700;
+.banner-content h1 {
+  color: rgb(14, 14, 14);
+  font-family: "Fira Sans";
+  font-size: 54px;
+  font-weight: 700;
 }
-.banner-content .banner-btn{
-    color: rgb(255, 255, 255);
-    font-family: "Fira Sans";
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 8px;
-    background: rgb(0, 106, 80);
-    padding: 17px 34px 17px 34px;
-    border: none;
-    margin-top: 24px;
+.banner-content .banner-btn {
+  color: rgb(255, 255, 255);
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  padding: 17px 34px 17px 34px;
+  border: none;
+  margin-top: 24px;
+}
+.banner-content .banner-btn:hover {
+  background-color: rgb(198, 228, 214);
+  color: rgb(0, 106, 80);
+  border: 1px solid rgb(0, 106, 80);
+  transition: all 0.3s ease;
 }
 
+/* vision of future section */
+
+.vision-container {
+  text-align: left;
+}
+.vision-title {
+  margin-bottom: 24px;
+}
+.vision-para {
+  margin-bottom: 32px;
+}
+.v-cards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 80px;
+}
+.v-card {
+  flex: 1;
+  border-radius: 16px;
+  background: rgba(84, 144, 245, 0.2);
+  padding: 32px 32px;
+  align-items: left;
+}
+.v-card-icon {
+  margin-bottom: 25px;
+}
+.v-card-title {
+  margin-bottom: 12px;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 20px;
+  font-weight: 700;
+}
+.v-card-description {
+  margin-bottom: 48px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+}
+.v-card-button {
+  border-radius: 8px;
+  background-color: rgb(84, 144, 245);
+  color: rgb(255, 255, 255);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px 11px 20px;
+  border: none;
+  cursor: pointer;
+}
+.v-card-button:hover {
+  background-color: rgba(84, 144, 245, 0.2);
+  border: 2px solid black;
+  color: rgb(84, 144, 245);
+  transition: all 0.3s ease;
+}
+.v-card2 {
+  flex: 1;
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+  padding: 32px 32px;
+  align-items: center;
+}
+.v-card2-icon {
+  margin-bottom: 25px;
+}
+.v-card2-title {
+  margin-bottom: 12px;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 700;
+}
+.v-card2-description {
+  margin-bottom: 48px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+}
+.v-card2-button {
+  border-radius: 8px;
+  background-color: rgb(9, 161, 92);
+  color: rgb(255, 255, 255);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px 11px 20px;
+  border: none;
+  cursor: pointer;
+}
+.v-card2-button:hover {
+  background-color: rgb(198, 228, 214);
+  border: 2px solid black;
+  color: rgb(9, 161, 92);
+  transition: all 0.3s ease;
+}
+.v-card3 {
+  flex: 1;
+  border-radius: 16px;
+  background: rgb(247, 235, 207);
+  padding: 32px 32px;
+  align-items: center;
+}
+.v-card3-icon {
+  margin-bottom: 25px;
+}
+.v-card3-title {
+  margin-bottom: 12px;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 700;
+}
+.v-card3-description {
+  margin-bottom: 48px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+}
+.v-card3-button {
+  border-radius: 8px;
+  background-color: rgb(255, 194, 57);
+  color: rgb(255, 255, 255);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px 11px 20px;
+  border: none;
+  cursor: pointer;
+}
+.v-card3-button:hover {
+  background-color: rgb(247, 235, 207);
+  border: 2px solid black;
+  color: rgb(255, 194, 57);
+  transition: all 0.3s ease;
+}
+
+/* Recent News */
+.recent-news {
+  margin-bottom: 80px;
+}
+.recent-news-title {
+  margin-bottom: 24px;
+}
+.recent-news-p {
+  margin-bottom: 32px;
+}
+.news-card-box {
+  border-radius: 24px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 24px;
+}
+.news-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 48px;
+}
+.news-card .imgs {
+  border-radius: 24px;
+  width: 408px;
+  height: 306px;
+}
+.news-card-content h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.news-day img {
+  margin-bottom: 12px;
+}
+.news-day p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+.news-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
