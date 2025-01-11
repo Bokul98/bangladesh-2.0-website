@@ -332,6 +332,45 @@ body {
   margin-top: 12px;
   margin-bottom: 4px;
 }
+/* Opinion Section */
+.opinion-container{
+  margin-bottom: 80px;
+}
+.opinion-container .opinion-title{
+  margin-bottom: 56px;
+}
+.table-main{
+  border-radius: 16px;
+  background: rgb(250, 250, 250);
+  width: 100%;
+  border-collapse: collapse;
+}
+.header-t{
+  background-color: rgb(198, 228, 214);
+  padding: 24px;
+}
+.heading-1, .all-same {
+  padding: 24px;
+  text-align: left;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  color: rgb(14, 14, 14);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 600;
+}
+.select-opinion {
+  text-align: center;
+}
+.select-opinion select {
+  border: 1px solid rgb(14, 14, 14);
+  border-radius: 4px;
+  background: rgb(198, 228, 214);
+  padding: 10px 14px 10px 14px;
+  color: rgb(14, 14, 14);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 500;
+}
 
 /* Recent News */
 
